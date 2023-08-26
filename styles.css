@@ -1,0 +1,205 @@
+:root {
+	--main_color: #238f79;
+	--secondary_color: #5bdcd8;
+}
+
+body {
+	font-family: Montserrat, sans-serif;
+	text-align: center;
+}
+
+h1,
+h2,
+h3 {
+	font-family: Montserrat, sans-serif;
+}
+
+h1 {
+	text-align: left;
+}
+
+h2 {
+	font-size: 3rem;
+	font-weight: 700;
+	color: white;
+}
+
+h3 {
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+
+#title {
+	background-color: var(--main_color);
+	color: white;
+}
+
+.container-fluid {
+	padding: 3% 15% 7%;
+}
+
+.title-image {
+	width: 60%;
+	transform: rotate(25deg);
+	position: absolute;
+	right: 30%;
+}
+
+.positioning {
+	position: relative;
+}
+
+#features {
+	padding: 7% 15% 7%;
+	background-color: white;
+	position: relative;
+}
+
+.navbar {
+	padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+	font-family: 'ubuntu';
+	font-size: 2.5rem;
+	font-weight: 500;
+}
+
+.nav-item {
+	padding: 0 18px;
+}
+
+.nav-link {
+	font-size: 1.2rem;
+	font-family: Montserrat;
+	font-weight: 300;
+}
+
+.download {
+	margin: 5% 3% 5% 0;
+}
+
+.features {
+	/* padding: 0 auto; */
+
+	padding: 5%;
+}
+
+#icon {
+	color: var(--secondary_color);
+	/* padding: 10% 50%; */
+	padding-bottom: 15px;
+	transform: scale(3);
+}
+
+#feat {
+	margin-bottom: 0;
+
+	color: #8f8f8f;
+}
+
+#icon:hover {
+	color: var(--main_color);
+}
+
+#testimonials {
+	background-color: var(--secondary_color);
+}
+
+#testimonialImg {
+	margin: 20px;
+	width: 10%;
+	border-radius: 50%;
+}
+
+#press {
+	background-color: var(--secondary_color);
+
+	padding-bottom: 3%;
+}
+
+#pressImg {
+	width: 15%;
+	margin: 20px 20px 50px;
+}
+
+#c-item {
+	padding: 7% 15%;
+}
+
+#pricing {
+	padding: 100px;
+}
+
+#price {
+	color: black;
+}
+
+.pricing-column {
+	padding: 3% 2%;
+	/* height: 100px; */
+}
+
+@media (max-width: 1028px) {
+	.title-image {
+		position: static;
+		transform: rotate(0deg);
+	}
+
+	#title #ctaH3 {
+		text-align: center;
+	}
+}
+
+#cta {
+	background-color: var(--main_color);
+	padding: 7% 20% 4%;
+}
+
+#ctaH3 {
+	font-family: Montserrat;
+	font-size: 3rem;
+	line-height: 1.5;
+	font-weight: 900;
+	color: white;
+}
+
+#footer {
+	padding: 6.5% 30% 0.1%;
+	background-color: #fff;
+}
+
+.footer-p {
+	font-size: 0.9rem;
+	font-weight: 200;
+	color: #8f8f8f;
+	margin-bottom: 0;
+}
+
+.footer-icon {
+	color: #5d5959;
+	padding: 0 1.5% 3%;
+}
+
+.cardH2 {
+	color: black;
+}
+
+.lastP {
+	color: white;
+}
+
+.price-btn {
+	background-color: var(--secondary_color);
+	border: none;
+}
+
+.price:hover {
+	background-color: var(--main_color);
+	border-color: var(--main_color);
+}
+
+.price-btn:hover {
+	background-color: var(--main_color);
+	border: none;
+}
